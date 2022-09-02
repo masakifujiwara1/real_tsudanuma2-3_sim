@@ -17,7 +17,7 @@ source ~/.bashrc
 ## running
 ~~~
 cd ~/catkin_ws/src/real_tsudanuma2-3_sim/experiments
-sh experiments_cit3f_with_scan.sh
+sh experiment_cit3f_with_scan.sh
 ~~~
 
 ## tested on ...
