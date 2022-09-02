@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+<model name="tsudanuma2-3_elevator">
+<pose>0 0 0 0 0 0</pose>
+<static>true</static>
+    <link name="link">
+      <inertial>
+        <mass>0.0562</mass>
+        <inertia>
+          <ixx>0.293</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.005</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.297</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+	  <mesh>
+		  <uri>model://tsudanuma2-3_elevator/tsudanuma2-3_elevator.dae</uri>	
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+		  <uri>model://tsudanuma2-3_elevator/tsudanuma2-3_elevator.dae</uri>
+          </mesh>
+  	</geometry>
+	<material>
+	<script>
+		<uri>model://tsudanuma2-3_elevator/materials/test_texture.material</uri>
+		<name>TestTexture_elevator</name>
+	</script>
+	</material>
+      </visual>
+    </link>
+  </model>
+</sdf>
