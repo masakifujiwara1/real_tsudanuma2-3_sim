@@ -20,7 +20,7 @@
   </include>
 
   <!-- Map server -->
-  <!-- <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/> -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
 
   <!-- AMCL -->
   <!-- <include file="$(find turtlebot3_navigation)/launch/amcl.launch">
@@ -51,8 +51,8 @@
   </group> -->
 
   <!-- rviz -->
-  <!-- <group if="$(arg open_rviz)"> 
+  <group if="$(arg open_rviz)"> 
     <node pkg="rviz" type="rviz" name="rviz" required="true"
-          args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
-  </group> -->
+          args="-d $(find waypoint_visualization)/rviz_config/nav_manager_v3.rviz"/>
+  </group>
 </launch>

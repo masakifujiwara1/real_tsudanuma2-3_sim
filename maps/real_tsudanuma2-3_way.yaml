@@ -10,8 +10,8 @@ waypoints:
         z: 0.00395676
         function: run
     - point:
-        x: -8.43621
-        y: -4.19909
+        x: -8.24468
+        y: -3.90323
         z: 0.0033994
         function: run_left
     - point:
@@ -35,9 +35,9 @@ waypoints:
         z: 0.00340442
         function: run_go
     - point:
-        x: -0.185455
-        y: 28.1295
-        z: 0.00339178
+        x: -0.117925
+        y: 28.3503
+        z: 0.0033913
         function: run
     - point:
         x: -1.8463
@@ -85,9 +85,9 @@ waypoints:
         z: 0.00338987
         function: run_right
     - point:
-        x: -8.32552
-        y: -4.21204
-        z: 0.00339082
+        x: -8.24103
+        y: -3.97862
+        z: 0.00338987
         function: run
     - point:
         x: -10.2928
@@ -120,9 +120,9 @@ waypoints:
         z: 0.0033999
         function: run
     - point:
-        x: -0.296874
-        y: 28.1333
-        z: 0.00340227
+        x: -0.157351
+        y: 28.3757
+        z: 0.00340179
         function: run_right
     - point:
         x: -0.355544
@@ -160,8 +160,8 @@ waypoints:
         z: 0.00339942
         function: run
     - point:
-        x: -0.125019
-        y: 28.1284
+        x: -0.12726
+        y: 28.3547
         z: 0.00340227
         function: run_right
     - point:
@@ -185,9 +185,9 @@ waypoints:
         z: 0.00338225
         function: run_right
     - point:
-        x: -8.48369
-        y: -4.28403
-        z: 0.00338034
+        x: -8.25767
+        y: -3.95205
+        z: 0.00337963
         function: run
     - point:
         x: -10.2932
@@ -215,8 +215,8 @@ waypoints:
         z: 0.0033813
         function: run_left
     - point:
-        x: -0.255259
-        y: 28.0733
+        x: -0.18731
+        y: 28.3218
         z: 0.00340228
         function: run
     - point:
@@ -250,8 +250,8 @@ waypoints:
         z: 0.00338511
         function: run
     - point:
-        x: -8.48764
-        y: -4.24499
+        x: -8.22955
+        y: -3.91768
         z: 0.00337939
         function: run_left
     - point:
