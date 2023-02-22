@@ -11,6 +11,7 @@
   <arg name="initial_pose_y" default="-16.78" />
   <arg name="initial_pose_a" default="0.0" />
   <arg name="use_waypoint_nav" default="false" />
+  <arg name="use_update_amcl_param" default="false" />
   <arg name="rate" default="3.0"/>
   <arg name="loop" default="true"/>
 
@@ -23,10 +24,28 @@
   <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
 
   <!-- AMCL -->
+  <!-- <group unless="$(arg use_update_amcl_param)">
+    <include file="$(find turtlebot3_navigation)/launch/amcl.launch">
+      <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
+      <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
+      <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
+    </include>
+  </group>
+  <gruop if="$(arg use_update_amcl_param)">
+    <include file="$(find turtlebot3_navigation)/launch/amcl.launch">
+      <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
+      <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
+      <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
+      <arg name="update_min_d" value="0.05" />
+      <arg name="update_min_a" value="0.05" />
+    </include>
+  </group> -->
   <include file="$(find turtlebot3_navigation)/launch/amcl.launch">
     <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
     <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
     <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
+    <arg name="update_min_d" value="0.05" if="$(arg use_update_amcl_param)" />
+    <arg name="update_min_a" value="0.05" if="$(arg use_update_amcl_param)" />
   </include>
 
   <!-- move_base -->

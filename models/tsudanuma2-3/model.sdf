@@ -18,22 +18,22 @@
       <collision name="collision">
         <geometry>
 	  <mesh>
-		  <uri>model://tsudanuma2-3/tsudanuma2-3_v3.0.dae</uri>	
+		  <uri>model://tsudanuma2-3/tsudanuma2-3_v2.2.3.obj</uri>	
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-		  <uri>model://tsudanuma2-3/tsudanuma2-3_v3.0.dae</uri>
+		  <uri>model://tsudanuma2-3/tsudanuma2-3_v2.2.3.obj</uri>
           </mesh>
   	</geometry>
-	<material>
-	<script>
+	<!-- <material> -->
+	<!-- <script>
 		<uri>model://tsudanuma2-3/materials/test_texture.material</uri>
 		<name>TestTexture</name>
-	</script>
-	</material>
+	</script> -->
+	<!-- </material> -->
       </visual>
     </link>
   </model>
