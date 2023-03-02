@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim': /usr/bin/cmake --build /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim -- -j16 -l16
+Invoked command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim' returned '0': /usr/bin/cmake --build /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim -- -j16 -l16
+Invoking command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim': /usr/bin/cmake --install /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim
+Invoked command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim' returned '0': /usr/bin/cmake --install /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim

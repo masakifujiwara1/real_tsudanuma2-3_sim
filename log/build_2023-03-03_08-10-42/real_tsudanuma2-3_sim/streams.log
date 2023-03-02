@@ -1,0 +1,66 @@
+[0.014s] Invoking command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim': /usr/bin/cmake /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.124s] -- The CXX compiler identification is GNU 9.4.0
+[0.130s] -- Check for working C compiler: /usr/bin/cc
+[0.192s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.192s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.281s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.367s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.503s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.503s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.723s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.794s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.900s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.933s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.075s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.079s] -- Looking for pthread.h
+[1.152s] -- Looking for pthread.h - found
+[1.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.233s] -- Looking for pthread_create in pthreads
+[1.297s] -- Looking for pthread_create in pthreads - not found
+[1.297s] -- Looking for pthread_create in pthread
+[1.374s] -- Looking for pthread_create in pthread - found
+[1.375s] -- Found Threads: TRUE  
+[1.515s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[1.573s] -- Configuring done
+[1.576s] -- Generating done
+[1.577s] CMake Warning:
+[1.577s]   Manually-specified variables were not used by the project:
+[1.577s] 
+[1.577s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.577s] 
+[1.577s] 
+[1.577s] -- Build files have been written to: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim
+[1.584s] Invoked command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim' returned '0': /usr/bin/cmake /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim
+[1.587s] Invoking command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim': /usr/bin/cmake --build /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim -- -j16 -l16
+[1.632s] Invoked command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim' returned '0': /usr/bin/cmake --build /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim -- -j16 -l16
+[1.700s] Invoking command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim': /usr/bin/cmake --install /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim
+[1.706s] -- Install configuration: ""
+[1.707s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/ament_index/resource_index/package_run_dependencies/real_tsudanuma2-3_sim
+[1.707s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/ament_index/resource_index/parent_prefix_path/real_tsudanuma2-3_sim
+[1.707s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/environment/ament_prefix_path.sh
+[1.707s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/environment/ament_prefix_path.dsv
+[1.708s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/environment/path.sh
+[1.708s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/environment/path.dsv
+[1.708s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/local_setup.bash
+[1.708s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/local_setup.sh
+[1.708s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/local_setup.zsh
+[1.708s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/local_setup.dsv
+[1.709s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/package.dsv
+[1.709s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/ament_index/resource_index/packages/real_tsudanuma2-3_sim
+[1.709s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/cmake/real_tsudanuma2-3_simConfig.cmake
+[1.709s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/cmake/real_tsudanuma2-3_simConfig-version.cmake
+[1.710s] -- Installing: /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/install/real_tsudanuma2-3_sim/share/real_tsudanuma2-3_sim/package.xml
+[1.712s] Invoked command in '/home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim' returned '0': /usr/bin/cmake --install /home/ubuntu/move_ros2_ws/src/real_tsudanuma2-3_sim/build/real_tsudanuma2-3_sim
