@@ -17,7 +17,7 @@
       </inertial>
       <collision name="collision">
         <geometry>
-	  <mesh>
+	        <mesh>
 		  <uri>model://tsudanuma2-3/tsudanuma2-3_v2.3.3.obj</uri>	
           </mesh>
         </geometry>

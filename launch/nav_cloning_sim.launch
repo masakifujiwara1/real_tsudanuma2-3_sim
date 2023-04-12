@@ -21,7 +21,7 @@
     <arg name="world_name" value="$(find real_tsudanuma2-3_sim)/world/$(arg world_name)"/> 
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
-    <arg name="gui" value="true"/>
+    <arg name="gui" value="false"/>
     <arg name="headless" value="false"/>
     <arg name="debug" value="false"/>
   </include>
@@ -44,7 +44,7 @@
   </node>
 
   <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
-        args="25 nav_cloning start_wp_nav.launch"
+        args="15 nav_cloning start_wp_nav.launch"
         name="timed_roslaunch3" >
   </node>
 
