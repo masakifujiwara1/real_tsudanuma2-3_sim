@@ -21,7 +21,7 @@
     <arg name="model" value="$(arg model)" />
   </include> -->
 
-  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find orne_description)/urdf/gamma/orne_gamma.urdf.xacro" />
+  <param name="robot_description" command="$(find xacro)/xacro $(find orne_description)/urdf/gamma/orne_gamma.urdf.xacro" />
 
   <!-- gamma -->
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
