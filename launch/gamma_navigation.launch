@@ -33,18 +33,18 @@
   <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
 
   <!-- AMCL -->
-  <!-- <include file="$(find turtlebot3_navigation)/launch/amcl.launch">
-    <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
-    <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
-    <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
-  </include> -->
-
-  <include file="$(find emcl2)/launch/emcl2.launch">
-    <arg name="scan_topic"  default="scan"/>
+  <include file="$(find turtlebot3_navigation)/launch/amcl.launch">
     <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
     <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
     <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
   </include>
+
+  <!-- <include file="$(find emcl2)/launch/emcl2.launch">
+    <arg name="scan_topic"  default="scan"/>
+    <arg name="initial_pose_x" value="$(arg initial_pose_x)" />
+    <arg name="initial_pose_y" value="$(arg initial_pose_y)" />
+    <arg name="initial_pose_a" value="$(arg initial_pose_a)" />
+  </include> -->
 
   <!-- move_base -->
   <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
@@ -69,7 +69,7 @@
 
   <!-- rviz -->
   <group if="$(arg open_rviz)"> 
-    <node pkg="rviz" type="rviz" name="rviz" required="true"
-          args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
+    <!-- <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find waypoint_visualization)/rviz_config/nav_manager_v5.rviz"/> -->
+    <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
   </group>
 </launch>

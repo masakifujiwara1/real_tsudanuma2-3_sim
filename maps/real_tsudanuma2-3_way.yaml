@@ -40,19 +40,19 @@ waypoints:
         z: 0.0033913
         function: run
     - point:
-        x: -1.8463
-        y: 29.8534
-        z: 0.00338987
+        x: -2.10108
+        y: 29.2147
+        z: 0.00339082
         function: run_left
     - point:
-        x: -7.75251
-        y: 29.8424
+        x: -7.96293
+        y: 29.168
         z: 0.00339273
         function: run
     - point:
-        x: -9.81348
-        y: 28.5559
-        z: 0.00339463
+        x: -9.99054
+        y: 28.0651
+        z: 0.00339415
         function: run_left
     - point:
         x: -9.94171
@@ -105,18 +105,18 @@ waypoints:
         z: 0.00395485
         function: run_go
     - point:
-        x: -9.76388
-        y: 28.4995
-        z: 0.00338892
+        x: -10.0127
+        y: 28.1364
+        z: 0.00338987
         function: run
     - point:
-        x: -7.72706
-        y: 29.8374
-        z: 0.00337987
+        x: -8.03327
+        y: 29.1022
+        z: 0.00338082
         function: run_right
     - point:
-        x: -1.9166
-        y: 29.8458
+        x: -2.11331
+        y: 29.2315
         z: 0.0033999
         function: run
     - point:
@@ -145,18 +145,18 @@ waypoints:
         z: 0.00395485
         function: run_right
     - point:
-        x: -9.74743
-        y: 28.5696
-        z: 0.00338892
+        x: -9.97009
+        y: 28.2084
+        z: 0.00338844
         function: run
     - point:
-        x: -7.71707
-        y: 29.8689
-        z: 0.00337987
+        x: -8.02122
+        y: 29.1431
+        z: 0.00338082
         function: run_right
     - point:
-        x: -2.0291
-        y: 29.88
+        x: -2.05759
+        y: 29.2247
         z: 0.00339942
         function: run
     - point:
@@ -220,18 +220,18 @@ waypoints:
         z: 0.00340228
         function: run
     - point:
-        x: -1.96192
-        y: 29.8389
-        z: 0.00339727
+        x: -2.11918
+        y: 29.2901
+        z: 0.00339822
         function: run_left
     - point:
-        x: -7.75182
-        y: 29.7992
+        x: -8.06326
+        y: 29.0992
         z: 0.00338987
         function: run
     - point:
-        x: -9.84999
-        y: 28.5019
+        x: -9.99877
+        y: 28.0794
         z: 0.0033894
         function: run_left
     - point:
