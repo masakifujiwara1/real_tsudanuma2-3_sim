@@ -1,4 +1,7 @@
 # real_tsudanuma2-3_sim
+## caution
+world file of stable version is tsudanuma2-3_v2.3.3.world
+
 ## install
 ~~~
 cd ~/catkin_ws/src
