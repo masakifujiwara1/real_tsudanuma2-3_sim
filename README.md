@@ -20,7 +20,7 @@ cd real_tsudanuma2-3_sim/world
 gazebo tsudanuma2-3_v2.3.3.world
 ~~~
 
-## example usage
+## example of usage with ROS
 https://github.com/masakifujiwara1/real_tsudanuma2-3_sim/blob/87027b53a26e68e2315eeabad6012d0c2ee0e582/launch/nav_cloning_sim.launch#L19-L28
 
 ## tested on ...
