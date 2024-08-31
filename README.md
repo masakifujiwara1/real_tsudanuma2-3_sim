@@ -4,7 +4,7 @@ world file of stable version is tsudanuma2-3_v2.3.3.world
 
 ## install
 ~~~
-git clone https://github.com/masakifujiwara1/real_tsudanuma2-3_sim.git
+git clone -b v2.1 https://github.com/masakifujiwara1/real_tsudanuma2-3_sim.git
 ~~~
 
 ## setup
